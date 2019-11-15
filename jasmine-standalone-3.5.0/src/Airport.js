@@ -1,15 +1,15 @@
 'use strict'; 
 
 function Airport() { 
-    this.hangar = [];
-    this.planeLanded = true 
+    this._hangar = [];
+    this.planeLanded = true; 
 }
 
 
-Airport.prototype.planes = function() {return this.hangar; };
+Airport.prototype.planes = function() {return this._hangar; };
 
 Airport.prototype.clearForLanding = function(plane) {
-    this.hangar.push(plane);
+    this._hangar.push(plane);
 
  };
 
@@ -24,6 +24,7 @@ Airport.prototype.clearForLanding = function(plane) {
          return 'Landed'}
      else { 
          return 'Departed'}
-     }
+     };
+    
 
- }
+ 
