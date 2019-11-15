@@ -20,4 +20,11 @@ describe('Feature Test:', function() {
         expect(airport.planes()).not.toContain(plane);
     });
 
+    // it('doesnt let planes takeoff when it is stormy', function() { 
+    //     plane.land(airport)
+    //     SpeechSynthesisVoice(airport, 'isStormy').and.returnValue(true); 
+    //     expect(function(){ plane.takeoff();}).toThrowError('cannot takeoff during storm'); 
+    //     expect(airport.planes()).toContain(plane)
+    // }
+
 });
