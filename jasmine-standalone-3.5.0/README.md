@@ -26,8 +26,6 @@ User Stories Completed :
 
 
 Working on  : 
-- everything is broken. Did something to airport class but not sure what. 
-
 -I want to prevent takeoff when weather is stormy
 
   Extra Wants : 

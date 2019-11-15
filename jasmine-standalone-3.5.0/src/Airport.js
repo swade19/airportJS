@@ -3,6 +3,7 @@
 function Airport() { 
     this._hangar = [];
     this.planeLanded = true; 
+    var test = "Hello There";
 }
 
 
